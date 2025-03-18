@@ -6,6 +6,18 @@ html {
   scroll-behavior: smooth;
 }
 
+body p b {
+  background: -webkit-linear-gradient(
+    180deg,
+    #f62459 35%,
+    #c471ed 47%,
+    #12c2e9 73%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Animation */
 
 .fade-in-section {
@@ -25,7 +37,7 @@ html {
 
 .App {
   font-family: "Prompt", sans-serif;
-  background-color: var(--navy);
+  background-color: #0e1116;
   display: flex;
   margin: auto;
 }
@@ -36,7 +48,7 @@ html {
 
 a {
   text-decoration: none !important;
-  color: var(--green-bright) !important;
+  /* color: var(--green-bright) !important; */
 }
 
 #content {
@@ -70,16 +82,6 @@ a {
   display: flex;
   padding-bottom: 42px;
   width: 100vw;
-}
-
-.section-header::after {
-  content: "";
-  display: block;
-  width: 300px;
-  margin-top: 39px;
-  height: 1px;
-  margin-left: 20px;
-  background-color: var(--lightest-navy);
 }
 
 .section-title {

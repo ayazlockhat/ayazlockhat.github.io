@@ -1,6 +1,5 @@
 import React from "react";
-
-import "../../styles/Intro.css";
+import "../styles/Intro.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 import FadeInSection from "./FadeInSection.js";

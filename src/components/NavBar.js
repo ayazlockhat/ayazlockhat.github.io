@@ -6,6 +6,8 @@ import Navbar from "react-bootstrap/Navbar";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import DescriptionIcon from "@mui/icons-material/Description";
+
 import "../styles/NavBar.css";
 const NavBar = () => {
   return (
@@ -39,6 +41,13 @@ const NavBar = () => {
               rel="noopener noreferrer"
             >
               <LinkedInIcon fontSize="medium" />
+            </Nav.Link>
+            <Nav.Link
+              href="resources/AyazLockhat_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <DescriptionIcon fontSize="medium" />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

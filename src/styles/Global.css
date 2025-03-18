@@ -1,7 +1,6 @@
 :root {
   --dark-navy: #020c1b;
   --navy: #0a192f;
-  --deep-slate: #222831; /* to replace background navy maybe */
   --light-navy: #112240;
   --lightest-navy: #233554;
   --navy-shadow: rgba(2, 12, 27, 0.7);
@@ -13,4 +12,11 @@
   --green-tint: rgba(100, 255, 218, 0.1);
   --dark: #18181b;
   --pink-hover: #f62459;
+
+  --main-background: #0e1116;
+  --cards: #101319;
+  --cards-2: #181d25; /* another option */
+  --card-header: #d2dae5;
+  --card-text: #ebeef3;
+  --hover: #5d799a;
 }
