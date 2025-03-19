@@ -1,0 +1,118 @@
+#experience {
+  min-height: 50vh;
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 100px;
+}
+
+.joblist-job-title {
+  font-family: "NTR", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--lightest-slate);
+}
+
+.joblist-job-company {
+  font-family: "NTR", sans-serif;
+  font-size: 36px;
+  color: var(--green-bright);
+  font-weight: 800;
+  background: linear-gradient(to left, #f62459 35%, #c471ed 47%, #12c2e9 73%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.joblist-duration {
+  font-family: "NTR", sans-serif;
+  font-size: 20px;
+  color: var(--slate);
+}
+
+#vertical-tabpanel {
+  margin-top: -28px;
+  padding-left: 25px;
+}
+
+.MuiTab-root {
+  font-size: 16px;
+  text-align: left !important;
+  align-items: flex-start !important;
+  font-family: "NTR", sans-serif;
+}
+
+.MuiButtonBase-root {
+  outline: none !important;
+  color: var(--lightest-slate) !important;
+}
+
+.MuiTabs-indicator {
+  border: 3px solid var(--hover) !important;
+}
+
+#experience .MuiTab-root {
+  padding: 6px 20px;
+}
+
+.MuiButtonBase-root:focus {
+  color: var(--hover) !important;
+}
+
+ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.job-description li::before {
+  content: "‣    ";
+  color: #7688a7;
+  position: absolute;
+  left: 0;
+}
+
+.job-description li {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 16px;
+  font-size: 22px;
+  color: var(--card-text);
+}
+
+.job-description {
+  padding-top: 24px;
+  max-width: 700px;
+  font-family: "NTR", sans-serif;
+  font-size: 20px;
+}
+
+.job-description a,
+.job-description b {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  #experience {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  .css-ubhsqc {
+    height: unset !important;
+    flex-direction: column !important;
+  }
+
+  .makeStyles-root-1 {
+    height: unset !important;
+    width: unset;
+    flex-direction: column;
+  }
+
+  .joblist-job-title {
+    font-size: 22px;
+  }
+
+  .joblist-job-company {
+    font-size: 22px;
+  }
+}
