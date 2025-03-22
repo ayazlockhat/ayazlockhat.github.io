@@ -80,7 +80,7 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    "ATS Automation VERY LOLONG": {
+    "ATS Automation": {
       jobTitle: "Software Developer Co-op @",
       duration: "Jan. 2024 - Dec. 2024",
       desc: [

@@ -85,6 +85,8 @@
 @media only screen and (max-width: 600px) {
   .about-me-card {
     font-size: 14px;
+    width: 100%;
+    max-width: 400px;
   }
 
   #about {
