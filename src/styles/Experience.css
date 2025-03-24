@@ -73,9 +73,9 @@
   border: 3px solid var(--hover) !important;
 }
 
-#experience .MuiTab-root {
+/* #experience .MuiTab-root {
   padding: 6px 20px;
-}
+} */
 
 .MuiButtonBase-root:focus {
   color: var(--hover) !important;

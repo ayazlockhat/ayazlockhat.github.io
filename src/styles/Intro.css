@@ -41,7 +41,8 @@
   color: var(--slate);
   text-align: center;
   font-weight: 300;
-  font-size: 58px;
+  font-size: 40px;
+  max-width: 600px;
 }
 
 .intro-desc {
@@ -78,7 +79,7 @@ b {
 
   .intro-subtitle {
     margin: 0;
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .intro-desc {

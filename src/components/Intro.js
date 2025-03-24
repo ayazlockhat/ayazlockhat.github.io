@@ -30,11 +30,12 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">Ayaz Lockhat</div>
+          <div className="intro-subtitle">
+            Developer | Problem solver | Student
+          </div>
           <div className="intro-desc">
-            I'm a Computer Science student at McMaster University passionate
-            about web development, software engineering, and turning ideas into
-            user-focused digital experiences.
+            Computer Science student @ McMaster. I enjoy solving real problems
+            through code - and constantly learning to build what’s next.
           </div>
         </FadeInSection>
       </div>
