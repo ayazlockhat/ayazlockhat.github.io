@@ -2,7 +2,7 @@ import React from "react";
 import Intro from "./components/Intro";
 import Experience from "./components/Experience";
 import About from "./components/About";
-// import Projects from "./components/Projects";
+import Projects2 from "./components/Projects2";
 import Credits from "./components/Credits";
 import NavBar from "./components/NavBar";
 import "./App.css";
@@ -16,9 +16,9 @@ function App() {
       <div id="content">
         <Intro />
         <About />
-        <Experience></Experience>
-        {/* <Projects></Projects> */}
-        <Credits></Credits>
+        <Experience />
+        <Projects2 />
+        <Credits />
       </div>
     </div>
   );
