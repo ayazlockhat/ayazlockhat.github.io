@@ -138,10 +138,14 @@ ul {
   }
 
   .joblist-job-title {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .joblist-job-company {
-    font-size: 22px;
+    font-size: 26px;
+  }
+
+  .job-description li {
+    font-size: 18px;
   }
 }

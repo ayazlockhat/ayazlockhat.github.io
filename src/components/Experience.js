@@ -3,7 +3,6 @@ import { Tabs, Tab, Box, Typography } from "@mui/material";
 import FadeInSection from "./FadeInSection";
 import "../styles/Experience.css";
 
-// Experience data as an array of objects for simpler iteration.
 const experienceData = [
   {
     company: "ATS Automation",

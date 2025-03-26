@@ -38,6 +38,9 @@
 .about-me-card h3 {
   margin: 1rem;
   color: var(--card-header);
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "NTR", sans-serif;
 }
 
 .about-me-card p {
@@ -85,6 +88,10 @@
   .about-me-card {
     font-size: 14px;
     min-width: 325px;
+  }
+
+  .about-me-card h3 {
+    font-size: 24px;
   }
 
   #about {
