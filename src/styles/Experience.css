@@ -6,8 +6,7 @@
 }
 
 .experience-content {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   max-width: 1024px;
   display: flex;
   justify-content: center;
@@ -38,7 +37,6 @@
 .joblist-job-company {
   font-family: "NTR", sans-serif;
   font-size: 36px;
-  color: var(--green-bright);
   font-weight: 800;
   background: linear-gradient(to left, #f62459 35%, #c471ed 47%, #12c2e9 73%);
   -webkit-background-clip: text;
@@ -73,11 +71,7 @@
   border: 3px solid var(--hover) !important;
 }
 
-/* #experience .MuiTab-root {
-  padding: 6px 20px;
-} */
-
-.MuiButtonBase-root:focus {
+.MuiTab-root.Mui-selected {
   color: var(--hover) !important;
 }
 
@@ -116,8 +110,7 @@ ul {
 
 @media only screen and (max-width: 600px) {
   #experience {
-    padding-left: unset;
-    padding-right: unset;
+    padding: 100px 0 0;
   }
 
   .experience-card {

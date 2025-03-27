@@ -3,7 +3,7 @@ import FadeInSection from "./FadeInSection";
 import "../styles/Projects.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
-import { Pagination } from "@mui/material";
+import Pagination from "@mui/material/Pagination";
 
 const Projects = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -143,21 +143,16 @@ const Projects = () => {
               count={totalPages}
               page={currentPage}
               onChange={handlePageChange}
-              color="primary"
-              size={isMobile ? "small" : "medium"}
+              size={"medium"}
               sx={{
                 "& .MuiPaginationItem-root": {
-                  color: "var(--card-text)",
-                  "&.Mui-selected": {
-                    backgroundColor: "var(--hover)",
-                    color: "var(--card-text)",
-                    "&:hover": {
-                      backgroundColor: "var(--hover)",
-                    },
+                  borderRadius: "15px",
+                  "&:hover": {
+                    backgroundColor: "var(--slate)",
                   },
-                },
-                "& .MuiPaginationItem-ellipsis": {
-                  color: "var(--card-text)",
+                  "&.Mui-selected": {
+                    backgroundColor: "var(--slate)",
+                  },
                 },
               }}
             />
