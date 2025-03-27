@@ -7,7 +7,7 @@
 }
 
 .navbar .brand {
-  color: var(---slate);
+  color: var(--slate);
   font-family: "NTR";
   font-weight: bold;
   font-size: 24px;
@@ -15,10 +15,12 @@
 
 .navbar-light .navbar-brand {
   color: var(--lightest-slate) !important;
+  text-decoration: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: var(--lightest-slate) !important;
+  text-decoration: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {

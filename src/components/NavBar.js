@@ -1,4 +1,3 @@
-// src/components/NavBar.js
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -7,15 +6,13 @@ import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DescriptionIcon from "@mui/icons-material/Description";
-
 import "../styles/NavBar.css";
+
 const NavBar = () => {
   return (
     <Navbar fixed="top" className="navbar navbar-light bg-navy">
       <Container>
-        <Navbar.Brand className="navbar brand" href="#">
-          | alockhat |
-        </Navbar.Brand>
+        <Navbar.Brand className="navbar brand">| alockhat |</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

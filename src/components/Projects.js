@@ -65,7 +65,7 @@ const Projects = () => {
       image: "/images/ethbot.jpg",
       technologies: ["JavaScript", "discord.js", "Web API"],
       githubLink: "https://github.com/ayazlockhat/Ethereum-Discord-Bot",
-      demoLink: "",
+      demoLink: null,
     },
     {
       title: "IOS Stock Widget",
@@ -73,8 +73,8 @@ const Projects = () => {
         "An IOS widget used to track stocks portfolio using JavaScript, JSON Endpoint API, Google Finance API, and Google Sheets.",
       image: "/images/widget.jpg",
       technologies: ["JavaScript", "JSON Endpoint API"],
-      githubLink: "https://github.com/ayazlockhat/Ethereum-Discord-Bot",
-      demoLink: "",
+      githubLink: "https://github.com/ayazlockhat/IOS-Stock-Widget-Sheets",
+      demoLink: null,
     },
   ];
 
