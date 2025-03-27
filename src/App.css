@@ -18,6 +18,10 @@ body p b {
   -webkit-text-fill-color: transparent;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /* Animation */
 
 .fade-in-section {
