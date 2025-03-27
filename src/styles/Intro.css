@@ -1,0 +1,94 @@
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1000px;
+  min-height: 100vh;
+}
+
+.Typist {
+  color: var(--lightest-slate);
+  text-align: center;
+  font-size: 86px;
+  margin-top: -30px;
+}
+.Typist .Cursor--blinking {
+  color: var(--lightest-slate);
+  padding-left: 4px;
+}
+
+.intro-title {
+  font-family: "NTR", sans-serif;
+  font-size: 96px;
+}
+.intro-name {
+  font-family: "NTR", sans-serif;
+  font-weight: 800;
+  color: transparent;
+  background: linear-gradient(to left, #f62459 35%, #c471ed 47%, #12c2e9 73%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.intro-subtitle {
+  margin-top: -36px;
+  font-family: "NTR", sans-serif;
+  color: var(--slate);
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  max-width: 600px;
+}
+
+.intro-desc {
+  color: var(--slate);
+  font-family: "NTR", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  max-width: 600px;
+  padding-bottom: 50px;
+}
+
+b {
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+  #intro {
+    padding-left: unset;
+    padding-top: unset;
+    margin: 0;
+    align-items: center;
+  }
+
+  .intro-title {
+    font-size: 46px;
+  }
+  .intro-name {
+    font-size: 46px;
+  }
+
+  .Typist {
+    font-size: 36px;
+  }
+
+  .intro-subtitle {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .intro-desc {
+    font-size: 18px;
+    max-width: unset;
+    padding-bottom: 40px;
+  }
+
+  .intro-contact {
+    font-size: 16px;
+  }
+}
