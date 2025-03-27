@@ -35,7 +35,7 @@ const Projects = () => {
       title: "ShareWize",
       description:
         "ShareWize makes bill splitting easy with React, Node.js, AWS, and Bootstrap, providing seamless group expense management.",
-      image: "/images/sharewize.png",
+      image: "/images/shareWize.png",
       technologies: ["React", "Node.js", "AWS", "Bootstrap"],
       githubLink: "https://github.com/ayazlockhat/ShareWize",
       demoLink: null,
