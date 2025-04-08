@@ -41,15 +41,6 @@ const Projects = () => {
       demoLink: null,
     },
     {
-      title: "Finance Bot",
-      description:
-        "A Dockerized Discord bot built with Python and Yahoo Finance API to deliver real-time stock and crypto data via user commands.",
-      image: "/images/financebot.png    ",
-      technologies: ["Python", "Docker", "yFinance"],
-      githubLink: "https://github.com/ayazlockhat/finance-bot",
-      demoLink: null,
-    },
-    {
       title: "CS Coursebook",
       description:
         "Manage grades with secure, reliable storage through our course book, built with ReactJS, CSS, and HTML.",
@@ -57,6 +48,15 @@ const Projects = () => {
       technologies: ["React", "JavaScript", "CSS", "Node.js"],
       githubLink: "https://github.com/naseer-rehman/Common-Sense-Coursebook",
       demoLink: "https://common-sense-coursebook.vercel.app/",
+    },
+    {
+      title: "Finance Bot",
+      description:
+        "A Dockerized Discord bot built with Python and Yahoo Finance API to deliver real-time stock and crypto data via user commands.",
+      image: "/images/financebot.png    ",
+      technologies: ["Python", "Docker", "yFinance"],
+      githubLink: "https://github.com/ayazlockhat/finance-bot",
+      demoLink: null,
     },
     {
       title: "Ethereum Bot",

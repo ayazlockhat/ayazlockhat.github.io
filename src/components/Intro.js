@@ -20,7 +20,7 @@ const Intro = () => {
         </div>
         <div className="intro-desc">
           Computer Science student @ McMaster. I enjoy solving real problems
-          through code - and constantly learning to build what's next.
+          through code - constantly learning to build what's next.
         </div>
       </FadeInSection>
     </div>

@@ -64,7 +64,7 @@ const About = () => {
               <h3>Who I am</h3>
               <p>
                 Hi, my name is <b>Ayaz Lockhat</b>, I am currently studying
-                <b> Computer Science</b> student at <b> McMaster University</b>.
+                <b> Computer Science</b> at <b> McMaster University</b>.
                 Everyday I work towards my goal of becoming a Computer
                 Scientist. I enjoy expanding my programming knowledge and adding
                 valuable information to my toolkit.
