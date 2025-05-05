@@ -65,8 +65,10 @@ const About = () => {
               <p>
                 Hi, my name is <b> Ayaz Lockhat</b>. I graduated from
                 <b> McMaster University</b> with a degree in
-                <b> Computer Science</b>. I enjoy expanding my programming
-                knowledge and adding valuable information to my toolkit.
+                <b> Computer Science</b>. I build solutions for real-world
+                problems, thrive on tackling complex challenges, and
+                continuously expand my toolkit with new languages and
+                frameworks.
               </p>
               <p>
                 During my spare time, I enjoy going on hikes, playing video
