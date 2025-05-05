@@ -16,10 +16,10 @@ const Intro = () => {
       </Typist>
       <FadeInSection>
         <div className="intro-subtitle">
-          Developer | Problem solver | Student
+          Developer | Problem Solver | Innovator
         </div>
         <div className="intro-desc">
-          Computer Science student @ McMaster. I enjoy solving real problems
+          Computer Science graduate @ McMaster. I enjoy solving real problems
           through code - constantly learning to build what's next.
         </div>
       </FadeInSection>

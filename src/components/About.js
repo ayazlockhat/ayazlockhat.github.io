@@ -19,7 +19,7 @@ const About = () => {
               <img alt="ayaz" src="/images/selfimage.jpg" />
               <h3>Ayaz Lockhat</h3>
               <p>
-                Computer Science student with a passion for programming and
+                Computer Science graduate with a passion for programming and
                 expanding knowledge.
               </p>
               <div className="info">
@@ -63,11 +63,10 @@ const About = () => {
             <FadeInSection>
               <h3>Who I am</h3>
               <p>
-                Hi, my name is <b>Ayaz Lockhat</b>, I am currently studying
-                <b> Computer Science</b> at <b> McMaster University</b>.
-                Everyday I work towards my goal of becoming a Computer
-                Scientist. I enjoy expanding my programming knowledge and adding
-                valuable information to my toolkit.
+                Hi, my name is <b> Ayaz Lockhat</b>. I graduated from
+                <b> McMaster University</b> with a degree in
+                <b> Computer Science</b>. I enjoy expanding my programming
+                knowledge and adding valuable information to my toolkit.
               </p>
               <p>
                 During my spare time, I enjoy going on hikes, playing video
